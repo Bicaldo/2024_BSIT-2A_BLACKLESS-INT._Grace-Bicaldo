@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("coffee/Background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+.header h2{
+    background-color: #d4b765;
+    color: #000000;
+    padding: 10px;
+    text-align: center;
+}
+nav ul{
+    list-style-type: none;
+    position: relative;
+    bottom: 50px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #000000;
+}
+nav ul li a:hover {
+    color: #3332327c;
+}
+.table{
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f5d681;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 82px;
+    left: 460px;
+
+}
+.add-ons{
+    max-width: 1000px;
+    background-color: #f5d681;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    left: 80px;
+}
+#item{
+    font-weight: bold;
+}
+.status{
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f5d681;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 970px;
+    left: 300px;
+}
+.order{
+    margin-left: auto;
+    margin-right: auto;
+}
+table tr td{
+    padding: 10px;
+}
+.warn{
+    font-size:12px;
+    text-align:center;
+}
+.cancel{
+    text-decoration: none;
+    color: #000000;
+}
+.cancel:hover{
+    color: #0018857c;
+}
